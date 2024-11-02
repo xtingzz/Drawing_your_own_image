@@ -7,13 +7,13 @@ speed(200)
 colormode(255)
 pensize(1)
 
-# 画气球
+# draw ballons
 for i in range(8):
-    # 随机起点
+    # start point
     x = random.randint(-300, 300)
     y = random.randint(-300, 300)
 
-    # 随机颜色
+    # color
     r = random.randint(0, 255)
     g = random.randint(0, 255)
     b = random.randint(0, 255)
